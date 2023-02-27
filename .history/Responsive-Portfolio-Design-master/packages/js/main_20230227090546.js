@@ -1,4 +1,3 @@
-
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
@@ -29,7 +28,12 @@ function linkAction() {
   navMenu.classList.remove("show-menu");
 }
 navLink.forEach((n) => n.addEventListener("click", linkAction));
-
+var typed = new Typed(".typing", {
+    strings: ["Web Designer", "Web Developer",  "Programmer", "Circuit Design &", "Embedded Technoliest"],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: true
+})
 
 /*==================== ACCORDION SKILLS ====================*/
 const skillsContent = document.getElementsByClassName("skills__content"),

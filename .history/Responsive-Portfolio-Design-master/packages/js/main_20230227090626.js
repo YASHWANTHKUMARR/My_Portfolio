@@ -1,4 +1,9 @@
-
+var typed = new Typed(".typing", {
+    strings: ["Web Designer", "Web Developer",  "Programmer", "Circuit Design &", "Embedded Technoliest"],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: true
+})
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
